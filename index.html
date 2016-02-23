@@ -1,64 +1,72 @@
+
 <html>
 	<head>
-		<title> This is my webpage </title>
-		</head>
-		<body>
-		<h1>My Title </h1>
-		<h2> My sub-title </h2>
+		  <title>This is my webpage</title>
+		<a href="second.html">click link to access second page</a>
+	</head>
+
+	  <link rel="stylesheet" type="text/css" href="code_day3.css">
+
+	<body>
 		
-		<a href="second.html">click here to access second page</a>
-	
-		<p> My paragraph 1- text text text
-		<strong> text text text </strong> text more text ext textext textext textext text <i> text </i> text text text text text text text text text text text text <u>text text text text text text text text text text text text </u>
-
-		</p>
-
-			<form>
-				Username: <input type="text" /><br/>
-				Password: <input type= "password" /><br/>
-				Gender: 
-					<input type= "radio" name= "g"/> M
-					<input type= "radio" name= "g"/> F <br/>
-				I AM OVER 18
-				<input type= "checkbox" /><br />
-				Submit Information
-				<input type="button" value= "Click Me" />
-				</form>
-
-				<b>Unordered list:</b>
-				<ul style="list-style-type:disc">
- 					<li>Turnips</li>
-  					<li>Tea</li>
-  					<li>Milk</li>
-				</ul>
-
-			</form>
-				<b>Ordered List:</b>
-			<ol>
-  				<li>Coffee</li>
- 				<li>Tea</li>
-  				<li>Milk</li>
-			</ol>
-
-								<table border="3" style="width:50%">
-  									
-   										 <th>Name</th>
-   										 <th>Age</th> 
-   										 <th>School</th>
-
- 									 </th>
-  									<tr>
-    									<td>Eve</td>
-    									<td>22</td> 
-    									<td>St Andrews</td>
-    								<tr>
-    									<td>John</td>
-    									<td>23</td>
-    									<td>Durham</td>
-
-  									</tr>
-								</table>
-
-		</body>
-
+<h1>My Title</h1>
+		<h2>My sub-title</h2>
+		
+		<p id="first">My paragraph 1 - text text text text text text text text text text text text text text text <strong>text text text text</strong>text text text text text text text text text text text text text text text text text text text text text text text <b>text text text </b>text text text text text text text text text text text text text text text text text text text text text text text text text <i>text text text </i>text text text text text text text text text text text text text text text text text text text text text text text text text <u>text text text </u>text text text text text text text</p>
+		<p>My paragraph 2</p>
+		<p>My paragraph 3</p>
+		
+		<table border=1 width=100%>
+			  <thead>
+    <tr>
+					      <th>Name</th>
+      <th>Age</th>
+      <th>School</th>
+				    </tr>
+			  <thead>
+  			<tbody>
+    <tr>
+      <td class="interesting">Alice</td>
+      <td>21</td>
+      <td>Computer Science</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>22</td>
+      <td>Management</td>
+    </tr>
+    <tr>
+      <td>Caitlin</td>
+      <td>23</td>
+      <td>Psychology</td>
+    </tr>
+			  </tbody>
+		</table>
+				
+		<ul>
+			  <li>Turnips</li>
+			  <li>Cabbages</li>
+			  <li class="interesting">Carrots</li>
+		</ul>
+		
+		<ol>
+			  <li>apples</li>
+			  <li>oranges</li>
+			  <li>bananas</li>
+		</ol>
+				
+		<form>
+  Username: <input type="text" /><br/>
+  Password: <input type="password" /><br/>
+  Gender: 
+  <input type="radio" name="g" />M
+  <input type="radio" name="g" />F<br/>
+  I am over 18
+  <input type="checkbox" /><br/>
+  Submit information
+  <input id="submitbutton" type="button" value="Click Me" />
+		</form>
+		<!--THIS IS THE SYMBOL TO USE IF YOU NEED TO MAKE COMMENTS; -->
+    
+	</body>
 </html>
